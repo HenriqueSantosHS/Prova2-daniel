@@ -30,5 +30,14 @@ function listar() {
     })
 }
 
-
-
+function listarCategoria(categorias){
+    for(let i = 0; i < produtos.length; i++){
+        if(produtos[i].categoria != categorias){
+        
+        }else {
+            console.log(produtos[i])
+        }
+    }
+}
+let i = "Escolar"
+listarCategoria (i)
